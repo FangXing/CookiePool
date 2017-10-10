@@ -1,0 +1,18 @@
+REDIS_HOST_NAME = '192.168.56.101'
+REDIS_HOST_PORT = 6379
+REDIS_PWD='myRedis'
+REDIS_DOMAIN = '*'
+REDIS_NAME  = '*'
+BROWSER_TYPE = 'chrome'
+GEN_INTERVAL = 60
+CHECK_INTERVAL = 60
+CHECKER_MAP = {
+    'weibo':'WeiboCookieChecker'
+}
+GENERATOR_MAP = {
+    'weibo':'WeiboCookieGenerator'
+}
+
+GENERATOR_RUN=False
+CHECKER_RUN=False
+API_RUN=True
